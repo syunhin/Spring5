@@ -19,6 +19,7 @@ public class HelloWorld {
         System.out.println("第四步 获取了bean对象");
         ((ClassPathXmlApplicationContext)context2).close();
 
+
         //加载spring配置文件
         //ApplicationContext context = new ClassPathXmlApplicationContext("classpath:helloWorld/bean1.xml");
 
